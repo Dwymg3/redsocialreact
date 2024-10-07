@@ -1,0 +1,27 @@
+.feed-container {
+    max-width: 600px; /* Ancho máximo para el feed */
+    margin: 20px auto; /* Centrado en la página */
+    padding: 20px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feed-container h1 {
+    font-family: var(--heading-font-family);
+    color: var(--primary-color);
+    text-align: center; /* Centrar el título */
+}
+
+.post {
+    border: 1px solid #ccc; /* Borde para cada publicación */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0; /* Margen entre publicaciones */
+    background-color: #fff; /* Fondo blanco para publicaciones */
+}
+
+.post img {
+    max-width: 100%; /* Hacer que las imágenes se ajusten al contenedor */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+}

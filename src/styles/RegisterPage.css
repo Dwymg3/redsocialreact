@@ -1,0 +1,26 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F8F8; /* Fondo gris claro */
+}
+
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Ajusta el ancho según sea necesario */
+}
+
+.login-form h1 {
+    text-align: center;
+    font-family: var(--heading-font-family);
+    margin-bottom: 20px;
+}
+
+.login-form p {
+    text-align: center;
+    margin-top: 10px;
+}

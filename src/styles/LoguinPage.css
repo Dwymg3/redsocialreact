@@ -1,0 +1,72 @@
+/* src/pages/LoginPage.css */
+body {
+    margin: 0; /* Eliminar márgenes predeterminados */
+    font-family: 'Roboto', sans-serif; /* Usar una fuente moderna */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #fafafa; /* Fondo gris claro */
+}
+
+.login-form {
+    background: white;
+    padding: 40px; /* Más padding para un formulario más espacioso */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Ancho del formulario */
+    text-align: center; /* Centrar el texto */
+}
+
+.login-form h1 {
+    font-size: 32px; /* Mayor tamaño de fuente */
+    margin-bottom: 20px;
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Negrita para el título */
+}
+
+.login-form input {
+    width: 100%; /* 100% del ancho */
+    padding: 15px; /* Mayor padding */
+    margin-bottom: 15px; /* Espaciado entre los inputs */
+    border: 1px solid #dbdbdb; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Para que el padding no afecte el ancho */
+    font-size: 16px; /* Tamaño de fuente en los inputs */
+}
+
+.login-form button {
+    width: 100%; /* Botón ocupa todo el ancho */
+    padding: 15px; /* Mayor padding */
+    background-color: #0095f6; /* Color azul de Instagram */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Efecto de transición */
+    font-size: 16px; /* Tamaño de fuente en el botón */
+    font-weight: bold; /* Negrita para el texto del botón */
+}
+
+.login-form button:hover {
+    background-color: #007bbf; /* Color más oscuro al pasar el mouse */
+}
+
+/* Enlace de registro */
+.login-form p {
+    margin-top: 20px; /* Espaciado superior */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+.login-form a {
+    color: #0095f6; /* Color azul de Instagram */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+}
+
+.login-form a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
